@@ -18,4 +18,55 @@ Cargo.lock
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
-#.idea/
+.idea/
+
+# Node.js dependencies
+node_modules/
+
+# Optional npm cache directory
+.npm/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Build output directories
+dist/
+build/
+
+# Coverage directory (for test coverage reports, e.g., Istanbul/nyc)
+coverage/
+
+# Environment variable files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Compiled source maps (if you generate them)
+*.js.map
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE or editor specific files (optional)
+.vscode/
+.idea/
+
+# Optional: Yarn Integrity file
+.yarn-integrity
+
+# Optional: Output of 'npm pack'
+*.tgz
+
