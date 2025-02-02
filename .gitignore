@@ -70,3 +70,5 @@ Thumbs.db
 # Optional: Output of 'npm pack'
 *.tgz
 
+id.json
+wallet.json
